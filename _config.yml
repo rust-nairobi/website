@@ -9,8 +9,8 @@ author:
   meetup: Rust-Nairobi
   email: team@rustnairobi.org
 
-feedback_url: https://github.com/rust-nairobi/blog/issues
-source_url: https://github.com/rust-nairobi/blog
+feedback_url: https://github.com/rust-nairobi/website/issues
+source_url: https://github.com/rust-nairobi/website
 
 
 # Build settings
