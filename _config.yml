@@ -1,0 +1,33 @@
+# Site settings
+title: Rust Nairobi User Group
+description: "A group for anyone interested in learning, hacking and talking about Rust, a programming language that empowers everyone to become a systems programmer."
+url: "http://blog.rust-nairobi.org"
+author:
+  name: Rust Nairobi
+  twitter: RustNairobi
+  github: rust-nairobi
+  meetup: Rust-Nairobi
+  email: team@rustnairobi.org
+
+feedback_url: https://github.com/rust-nairobi/blog/issues
+source_url: https://github.com/rust-nairobi/blog
+
+
+# Build settings
+permalink: "/:year/:month/:day/:title.html"
+markdown: kramdown
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "event"
+
+# Content settings
+future: true # we use dates for the actual meetup time, not the post publication time
+timezone: "Africa/Nairobi"
+
+exclude:
+  - .vscode
+  - .gitignore
+  - meetup-orga
