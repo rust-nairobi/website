@@ -1,7 +1,7 @@
 # Site settings
 title: Rust Nairobi User Group
 description: "A group for anyone interested in learning, hacking and talking about Rust, a programming language that empowers everyone to become a systems programmer."
-url: "http://blog.rust-nairobi.org"
+url: "http://nairobi.rs"
 author:
   name: Rust Nairobi
   twitter: RustNairobi
